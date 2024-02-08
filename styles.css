@@ -1,0 +1,63 @@
+/* CSS for styling */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6b092;
+  }
+  
+  .shadows-into light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  img {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    border: 1.5mm solid;
+    transition: all 0.3s ease;
+  }
+  img:hover {
+    transform: scale(1.15);
+    border-radius: 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Shadows Into Light", cursive;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: #666;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    margin: 0px 3px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    background-color: #a3512e ;
+    color: #ceb2b2b9;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+    .btn:hover {
+        background-color: #b98068;
+        color: #a3512e;
+        transform: scale(1.05);
+    }
