@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   function handleClickButton1() {
-    window.location.href = "/Valentine/yes.html"
+    window.location.href = "/yes.html"
   }
 
   function handleHoverButton2() {
